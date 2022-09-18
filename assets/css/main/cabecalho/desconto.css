@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.desconto {
+    height: 23px;
+    background: #1CD1B0;
+
+}
+.desconto p{
+    height: 100%;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+main {
+    height: 100vh;
+}
+

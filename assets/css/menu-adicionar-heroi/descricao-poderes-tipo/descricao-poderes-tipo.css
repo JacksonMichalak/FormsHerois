@@ -1,0 +1,21 @@
+.descricao__poderes__tipo {
+    display: flex;
+    height: 40%;
+
+}
+
+.descricao__poderes__tipo fieldset{
+    display: flex;
+    width: 100%;
+}
+
+.descricao {
+    height: 100%;
+    width: 57%;
+}
+
+.descricao textarea{
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+}

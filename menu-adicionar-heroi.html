@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/main/cabecalho/desconto.css">
+        <link rel="stylesheet" href="assets/css/main/cabecalho/menu-itens.css">
+        <link rel="stylesheet" href="assets/css/main/cabecalho/menu-lista.css">
+        <link rel="stylesheet" href="assets/css/main/cabecalho/menu.css">
+        <link rel="stylesheet" href="assets/css/main/cabecalho/nome-loja.css">
+        <link rel="stylesheet" href="assets/css/main/rodape.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/container.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/form.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/nome-especie/nome-especie.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/nasc-foto/nasc-foto.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/descricao-poderes-tipo/descricao-poderes-tipo.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/descricao-poderes-tipo/descricao-poderes-tipo.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/descricao-poderes-tipo/poderes-tipo/poderes-tipo.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/descricao-poderes-tipo/poderes-tipo/poderes.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/descricao-poderes-tipo/poderes-tipo/tipo.css">
+        <link rel="stylesheet" href="assets/css/menu-adicionar-heroi/botao/botao-adicionar.css">
+        <title>Adicionar Super-Herói</title>
+    </head>
+    <body>
+        <header>
+            <section class="desconto">
+                <p>20% de desconto em todos os produtos!</p>
+            </section>
+            <section class="nome__loja">
+                <img src="assets/img/logo.png" alt="Logo da loja">
+                <h1>Nome da Loja</h1>
+            </section>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__itens">Contato</li>
+                    <li class="menu__itens">Registrar-se</li>
+                    <li class="menu__itens">Login</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="form">
+                    <form action="#">
+                        <div class="form__cabecalho">
+                            <h2>Adicionar seu super-herói</h2>
+                            <p>Adicione seu personagem favorito completando as informações</p>
+                        </div>
+
+                        <div class="nome__especie">
+                            <fieldset>
+                                <div class="container__nome">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" name="nome" id="nome" required>
+                                </div>
+
+                                <div class="container__especie">
+                                    <label for="especie">Espécie</label>
+                                    <select name="especie" id="especie" required>
+                                        <option selected disabled value="">Selecione</option>
+                                        <option value="classico">Herói clássico</option>
+                                        <option value="everyman">Herói de everyman</option>
+                                        <option value="super-heroi">Super heroi</option>
+                                        <option value="tragico">Herói trágico</option>
+                                        <option value="epico">Herói épico</option>
+                                        <option value="anti-heroi">Anti-herói</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                        </div>
+
+                        <div class="nasc__foto">
+                            <fieldset>
+                                <div class="container__data">
+                                    <label for="data_nasc">Data de Nascimento</label>
+                                    <input type="date" name="data__nasc" id="data__nasc" required>
+                                </div>
+
+                                <div class="container__foto">
+                                    <label for="foto">Adicionar Foto</label>
+                                    <input class="foto" type="file" name="foto" id="foto">
+                                </div>
+                            </fieldset>
+                        </div>
+
+                        <div class="descricao__poderes__tipo">
+                            <fieldset>
+                                <div class="descricao">
+                                    <textarea name="descricao" cols="30" rows="10" placeholder="Descrição"></textarea required>
+                                </div>
+                                <div class="poderes__tipo">
+                                    <fieldset class="container__poderes">
+                                        <div class="poderes">
+                                            <label>Poderes</label>
+
+                                            <div class="poderes__option">
+                                                <input type="checkbox" name="poderes" id="voar" required>
+                                                <label for="voar">Voar</label>
+                                            </div>
+
+                                            <div class="poderes__option">
+                                                <input disabled type="checkbox" name="poderes"
+                                                    id="super-inteligencia">
+                                                <label for="super-inteligencia">Super Inteligência</label>
+                                            </div>
+
+                                            <div class="poderes__option">
+                                                <input type="checkbox" name="poderes" id="raio-laser">
+                                                <label for="raio-laser">Vista de raio laser</label>
+                                            </div>
+
+                                            <div class="poderes__option">
+                                                <input type="checkbox" name="poderes" id="rico">
+                                                <label for="rico">Super rico</label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset class="container__tipo">
+                                        <div class="tipo">
+
+                                            <label>Tipo de personaje</label>
+                                            <div class="tipo__option">
+                                                <input type="radio" name="Tipo" id="heroi" required>
+                                                <label for="heroi">Herói / Heroína</label>
+                                            </div>
+
+                                            <div class="tipo__option">
+                                                <input type="radio" name="Tipo" id="vilao">
+                                                <label for="vilao">Vilão / Vilã</label>
+                                            </div>
+                                    </fieldset>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="botao__adicionar">
+                            <button>Adicionar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="rodape">
+                <p>Todos os direitos reservados a FRONT END 1</p>
+            </div>
+        </footer>
+    </body>
+</html>

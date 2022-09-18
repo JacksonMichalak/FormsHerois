@@ -1,0 +1,48 @@
+.nome__especie {
+    display: flex;
+}
+
+.nome__especie fieldset{
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    height: 5rem;
+
+}
+
+.container__nome {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container__especie {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container__especie select{
+    height: 5rem;
+    border-radius: 15px;
+}
+
+label {
+    margin-bottom: 0.7rem;
+    color: #fff;
+}
+
+#nome  {
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+
+ #id, select, textarea  {
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+

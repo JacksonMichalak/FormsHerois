@@ -1,0 +1,32 @@
+.nasc__foto {
+    display: flex;
+}
+
+.nasc__foto fieldset{
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    height: 5rem;
+}
+
+.container__data {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container__data input{
+    height: 5rem;
+    border-radius: 15px;
+    padding: 1rem;
+    border: none;
+}
+
+.container__foto {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: stretch;
+}
+
+

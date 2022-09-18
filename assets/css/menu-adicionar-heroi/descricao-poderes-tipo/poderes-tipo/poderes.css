@@ -1,0 +1,18 @@
+.container__poderes {
+}
+
+.poderes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;  
+}
+
+.poderes__option label {
+    height: 100%;
+    padding-left: 0.5rem;
+}
+
+.poderes__option {
+    height: 100%;
+}
